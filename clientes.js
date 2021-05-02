@@ -1,3 +1,8 @@
+
+
+
+
+
 var cedula = prompt("Por favor ingresa tu numero de cedula para buscar tu usuario");
 
 

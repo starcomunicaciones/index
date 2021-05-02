@@ -63,7 +63,7 @@ M.yui.loader = {modules: {}};
     <a href="https://aulavirtual.iemnacionalpitalito.edu.co" class="navbar-brand has-logo
             ">
             <span class="logo d-none d-sm-inline">
-                <img src="//aulavirtual.iemnacionalpitalito.edu.co/pluginfile.php/1/theme_moove/logo/1613152489/Nacional-aula3.png" alt="Aula Virtual IEM Nacional">
+                <img src="Nacional-aula3.png" alt="Aula Virtual IEM Nacional">
             </span>
     </a>
 
@@ -92,8 +92,8 @@ M.yui.loader = {modules: {}};
         aria-haspopup="true"
         aria-label="Mostrar la ventana de notificaciones cuando no hay ninguna"
         tabindex="0">
-                <i class="slicon-bell" title="Mostrar/ocultar menú de notificaciones"></i>
-        <div class="count-container hidden" data-region="count-container">0</div>
+                <span class="userbutton"><span class="usertext"></span><span class="avatars"><span class="avatar current"><img src="notificaciones.jpeg" class="userpicture defaultuserpic" width="35" height="35" aria-hidden="true" /></span>
+        <div class="count-container hidden" data-region="count-container">3</div>
 
     </div>
     <div 
@@ -140,7 +140,7 @@ M.yui.loader = {modules: {}};
             aria-busy="false"
             aria-atomic="false"
             aria-relevant="additions"></div>
-        <div class="empty-message" tabindex="0" data-region="empty-message">No tienes notificaciones</div>
+        <div class="empty-message" tabindex="3" data-region="empty-message">No tienes notificaciones</div>
 
             </div>
             <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Enviando" aria-label="Enviando"></i></span>
@@ -155,9 +155,9 @@ M.yui.loader = {modules: {}};
 </div><div class="popover-region collapsed" data-region="popover-region-messages">
     <a id="message-drawer-toggle-6082d1eba53e16082d1eba2b413" class="nav-link d-inline-block popover-region-toggle position-relative icon-no-margin" href="#"
             role="button">
-        <i class="icon fa slicon-bubble fa-fw "  title="Mostrar/ocultar menú de mensajes" aria-label="Mostrar/ocultar menú de mensajes"></i>
+         <span class="userbutton"><span class="usertext"></span><span class="avatars"><span class="avatar current"><img src="mensaje.jpeg" class="userpicture defaultuserpic" width="35" height="35" aria-hidden="true" /></span>
         <div class="count-container hidden" data-region="count-container"
-        aria-label="There are 0 unread conversations">0</div>
+        aria-label="There are 0 unread conversations"></div>
     </a>
     <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div>
 
@@ -286,11 +286,11 @@ document.body.className += ' jsenabled';
 </tr>
 <tr class="">
 <th class="cell c0" style="" scope="row">Última modificación</th>
-<td class="cell c1 lastcol" style="">viernes, 23 de abril de 2021, 07:18</td>
+<td class="cell c1 lastcol" style="">viernes, 23 de abril de 2021, 07:11</td>
 </tr>
 <tr class="">
 <th class="cell c0" style="" scope="row">Archivos enviados</th>
-<td class="cell c1 lastcol" style=""><div class="box py-3 boxaligncenter plugincontentsummary summary_assignsubmission_file_144337"><div id="assign_files_tree6082d1eba2b4115"><ul><li yuiConfig='{"type":"html"}'><div><div class="fileuploadsubmission"><img class="icon icon" alt="FICHA 1 ROYECTO HUERTA CASERA.docx (1)-convertido (Autoguardado)-convertido (1).pdf" title="FICHA 1 ROYECTO HUERTA CASERA.docx (1)-convertido (Autoguardado)-convertido (1).pdf" src="https://aulavirtual.iemnacionalpitalito.edu.co/theme/image.php/moove/core/1613152489/f/pdf" /> <a target="_blank" href="https://aulavirtual.iemnacionalpitalito.edu.co/pluginfile.php/29767/assignsubmission_file/submission_files/144337/FICHA%201%20ROYECTO%20HUERTA%20CASERA.docx%20%281%29-convertido%20%28Autoguardado%29-convertido%20%281%29.pdf?forcedownload=1">FICHA 1 ROYECTO HUERTA CASERA.docx (1)-convertido (Autoguardado)-convertido (1).pdf</a>   </div><div class="fileuploadsubmissiontime">23 de abril de 2021, 07:18</div></div></li></ul></div></div></td>
+<td class="cell c1 lastcol" style=""><div class="box py-3 boxaligncenter plugincontentsummary summary_assignsubmission_file_144337"><div id="assign_files_tree6082d1eba2b4115"><ul><li yuiConfig='{"type":"html"}'><div><div class="fileuploadsubmission"><img class="icon icon" alt="FICHA 1 ROYECTO HUERTA CASERA.docx (1)-convertido (Autoguardado)-convertido (1).pdf" title="FICHA 1 ROYECTO HUERTA CASERA.docx (1)-convertido (Autoguardado)-convertido (1).pdf" src="https://aulavirtual.iemnacionalpitalito.edu.co/theme/image.php/moove/core/1613152489/f/pdf" /> <a target="_blank" href="https://aulavirtual.iemnacionalpitalito.edu.co/pluginfile.php/29767/assignsubmission_file/submission_files/144337/FICHA%201%20ROYECTO%20HUERTA%20CASERA.docx%20%281%29-convertido%20%28Autoguardado%29-convertido%20%281%29.pdf?forcedownload=1">FICHA 1 ROYECTO HUERTA CASERA.pdf</a>   </div><div class="fileuploadsubmissiontime">23 de abril de 2021, 07:11</div></div></li></ul></div></div></td>
 </tr>
 <tr class="lastrow">
 <th class="cell c0" style="" scope="row">Comentarios de la entrega</th>
@@ -1549,6 +1549,7 @@ document.body.className += ' jsenabled';
     
             <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
                 <ul class="list-group metismenu">
+                	
                             <li class="list-group-item" data-key="course-sections">
                                 <a class="m-l-0 has-arrow" href="javascript:void(0);">
                                     <span class="text">Secciones del curso</span>
