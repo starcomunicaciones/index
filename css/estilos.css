@@ -6,16 +6,32 @@
 
 body {
 	background: black;
-	color: yellow;
-font-family: 'Bungee', cursive;}
+	color: red;
+	  font-family: 'Roboto', sans-serif;
+	
+	
+/*font-family: 'Bungee', cursive;*/}
 
 a{
 	text-align: center;
 	color: yellow;
-	text-decoration: none;
-	font-size: 20px;
+	font-size: 60px;
+	text-decoration: underline;
 }
 
+
+
+.circulo{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%
+}
+
+.circulo > .imagen{
+	width: 100%;
+	height: 100%;
+
+}
 /* ? ----- PORTADA ----- */
 .portada {
 	width: 100%;

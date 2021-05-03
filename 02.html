@@ -33,7 +33,6 @@ else
 {}
 </script>
 	
-</div>
 <div id="page" class="wrapper">
         <div class="container-fluid">
             <div class="row text-center">
@@ -45,6 +44,8 @@ else
               
               <h6>
                 <a href="http://192.168.0.1">Administra tu router</a>
+                <br>
+                 <h4><a href="metodos_de_pago.html">Paga tu factura</a></h4>
               </h6>
               <h2>Tu cuenta esta paga hasta el 13/05/2021 <br>
               aqui esta tu historial de facturas</h2>
@@ -52,19 +53,47 @@ else
               <a href="02-Yefer-Murcia-Vargas.pdf" target="_blank">Factura 13/04/2021 a 13/05/2021</a>
             </h6>
             <h2>Tu siguiente factura</h2>
-            <h5>
+            <p> 
               <a href="contador2.html" target="_blank">Factura 13/05/2021 a 13/06/2021</a>
-            </h5>
+            </p>
+
                 <div class="col-10">
                   <div class="card">
                       
                 </div>
               </div>
             </div>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.me/573142425831" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
        
+<script type="text/javascript">
+        const btnSwitch = document.querySelector('#switch');
 
+btnSwitch.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  btnSwitch.classList.toggle('active');
+
+  // Guardamos el modo en localstorage.
+  if(document.body.classList.contains('dark')){
+    localStorage.setItem('dark-mode', 'true');
+  } else {
+    localStorage.setItem('dark-mode', 'false');
+  }
+});
+
+// Obtenemos el modo actual.
+if(localStorage.getItem('dark-mode') === 'true'){
+  document.body.classList.add('dark');
+  btnSwitch.classList.add('active');
+} else {
+  document.body.classList.remove('dark');
+  btnSwitch.classList.remove('active');
+}
+      </script>
 <!-- Start of starcomunicaciones Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d2531f35-efb2-48f5-9b8b-ed3a22e40fbe"> </script>
+<!--<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d2531f35-efb2-48f5-9b8b-ed3a22e40fbe"> </script>-->
 <!-- End of starcomunicaciones Zendesk Widget script -->
 </style>
 
